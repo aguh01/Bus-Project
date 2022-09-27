@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>User-Form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=b756cf3993c88ada6635c05e502e59a3">
+    <link rel="stylesheet" href="assets/css/dt.css?h=7b6a3c2cb7894fdb77bae43c70b92224">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css?h=74cbd162836abb1eda12ebcad200c88a">
+    <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
+</head>
+
+<body>
+    <div class="row register-form" style="width: 608px;">
+        <div class="col-md-8 offset-md-2 offset-lg-2" style="width: 429px;">
+            <form class="custom-form" style="height: 632.6px;width: 402px;margin-top: 67px;" action="user-form.php" method="post">
+                <h1 style="margin-top: -14px;">Passenger details</h1>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" style="font-size: 15px;">FullName</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="text" required="" minlength="auto" name="fullname" style="width: 221px;"></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="telephone number-input-field" style="font-size: 16px;">Mobile no.</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="tel" required="" minlength="10" name="mobile" style="width: 219px;" maxlength="15"></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column" style="width: 106.3px;"><label class="col-form-label" for="telephone number-input-field" style="font-size: 16px;padding-left: -10px;width: 98.3px;">Select Agent</label></div>
+                    <div class="col-sm-6 input-column"><select class="form-select" name="agent" value="agent" autofocus="" required="" style="width: 218px;">
+                            <option value="CHOOSE" selected="">CHOOSE</option>
+                            <option value="SHABIBY">SHABIBY</option>
+                            <option value="ABOOD">ABOOD</option>
+                            <option value="KIMBINYIKO">KIMBINYIKO</option>
+                        </select></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column" style="width: 106.3px;"><label class="col-form-label" for="telephone number-input-field" style="font-size: 16px;padding-left: -10px;width: 98.3px;">Choose Trip</label></div>
+                    <div class="col-sm-6 input-column"><select class="form-select" name="trip" value="trip" required="" autofocus="" style="width: 217px;">
+                            <option value="CHOOSE" selected="">CHOOSE</option>
+                            <option value="Dar-Mwanza">Dar-Mwanza</option>
+                            <option value="Dar-Dodoma">Dar-Dodoma</option>
+                            <option value="KIMBINYIKO">Dar-Mbeya</option>
+                        </select></div>
+                </div>
+                <div class="row form-group" style="margin-top: -10px;">
+                    <div class="col-sm-4 label-column" style="width: 106.3px;"><label class="col-form-label" for="telephone number-input-field" style="font-size: 16px;padding-left: -10px;width: 98.3px;text-align: center;">Gender</label></div>
+                    <div class="col-sm-6 input-column"><select class="form-select" name="sex" value="sex" required="" autofocus="" style="width: 218px;">
+                            <option value="SELECT" selected="">SELECT</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select></div>
+                </div><button class="btn btn-primary submit-button" type="submit" style="border-radius: 11px;width: 122.7px;margin-top: 1px;margin-left: 152px;">Submit&nbsp;</button>
+            </form>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+</body>
+
+</html>
